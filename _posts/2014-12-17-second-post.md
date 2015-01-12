@@ -19,9 +19,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 * Unordered list
 * second item
-  * sub item
-  * sub item
-* third item
+  - sub item
+  - sub item
++ third item
 
 ***
 
