@@ -3,10 +3,10 @@
 
 {% include head.html %}
 
-<body>
+<body id="blog">
 
   <!-- NAVBAR -->
-  <div class="navbar navbar-fixed-top">
+  <div class="navbar navbar-fixed-top navbar-light">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
@@ -22,8 +22,8 @@
       </div>
       <nav class="navbar-collapse collapse" id="main-nav" role="navigation">
         <ul class="nav navbar-nav navbar-right nav-text-light">
-          <li class="active"><a href="../../index.html">HOME</a></li>
-          <li><a href="#">BLOG</a></li>
+          <li><a href="../../index.html">HOME</a></li>
+          <li class="active"><a href="#">BLOG</a></li>
           <li><a href="../../index.html#about">ABOUT ME</a></li>
           <li><a href="../../index.html#services">EXPERIENCE</a></li>
           <li><a href="../../index.html#works">WORKS</a></li>
@@ -34,20 +34,24 @@
   </div>
   <!-- END NAVBAR -->
 
-  <div class="container">
+  <!-- BLOG -->
+  <div class="section blog">
 
-    <div class="page-header">
-      <h1>BLOG</h1>
-      <h2>Ryan J. Hobson</h2>
+    <div class="section-heading">
+      <div class="container">
+        <h2>BLOG</h2>
+        <p>Digital Content Producer</p>
+      </div>
     </div>
 
     {{ content }}
 
     {% include footer.html %}
   </div>
-  <!-- main container div -->
+
   <script src="../../assets/js/jquery-2.1.0.min.js"></script>
   <script src="../../assets/js/bootstrap.min.js"></script>
+  <script src="../../assets/js/blog.js"></script>
 </body>
 
 </html>
